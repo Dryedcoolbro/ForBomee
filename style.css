@@ -1,0 +1,30 @@
+.BigText {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: comicSans;
+    animation: rainbow 2s infinite;
+}
+
+body {
+    background-color: beige;
+}
+
+.NormalText {
+    text-align: center;
+    font-family: comicSans;
+    font-size: 20px;
+}
+
+@keyframes rainbow {
+    0% {color: red;}
+    25%{color:yellow;}
+    50%{color:green;}
+    75%{color: blue;}
+    100%{color: red;}
+}
+
+@font-face {
+    font-family: comicSans;
+    src:url(COMIC.TTF);
+}
